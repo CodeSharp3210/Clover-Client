@@ -31,7 +31,7 @@ class Program
             Assets = new Assets()
             {
                 LargeImageKey = "logo", // Assicurati che esista su Discord Developer Portal
-                LargeImageText = "Coded in F# by CodeSharp"
+                LargeImageText = "Coded in C# by CodeSharp"
             }
         });
 
@@ -44,4 +44,5 @@ class Program
             Thread.Sleep(1000);
         }
     }
+
 }
