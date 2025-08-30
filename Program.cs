@@ -17,7 +17,7 @@ class Program
 
 
         // Inizializza il client con il tuo ID dell'app Discord
-        client = new DiscordRpcClient("1401258979748872202");
+        client = new DiscordRpcClient("BOT_ID");
 
 
         // Connessione a Discord
@@ -46,3 +46,4 @@ class Program
     }
 
 }
+
