@@ -10,7 +10,7 @@ let main argv =
     Thread.Sleep(5000)
 
     // Inizializza il client con il tuo ID dell'app Discord
-    let client = new DiscordRpcClient("1401258979748872202")
+    let client = new DiscordRpcClient("BOT_ID")
 
     // Connessione a Discord
     client.Initialize()
@@ -35,3 +35,4 @@ let main argv =
         Thread.Sleep(1000)
 
     0 // codice di uscita
+
